@@ -1,0 +1,18 @@
+Git에 저장된 자료를 불러오는 용도
+	git pull orign master
+		: 지정 공간에서 모든 자료를 한번에 끌어옴
+
+
+
+Git에 새로운 데이터 내용을 넣는 용도
+	git status
+		: 로컬 폴더와 Git과의 sink를 체크
+
+	git add .
+		: 변경된 파일들을 모두 Tracking 함
+
+	git commit -m "message"
+		: 인식 가능한 commit를 달아줌 
+
+	git push orign +master
+		: 실제로 Git에 올리는것
